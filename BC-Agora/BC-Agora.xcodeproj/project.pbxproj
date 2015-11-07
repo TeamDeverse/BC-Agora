@@ -14,6 +14,9 @@
 		14CCE26E1BE65D00008E5782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14CCE26C1BE65D00008E5782 /* Main.storyboard */; };
 		14CCE2701BE65D00008E5782 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 14CCE26F1BE65D00008E5782 /* Assets.xcassets */; };
 		14CCE2731BE65D00008E5782 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14CCE2711BE65D00008E5782 /* LaunchScreen.storyboard */; };
+		379700E81BED572C00347C4C /* AGOmailboxVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379700E71BED572C00347C4C /* AGOmailboxVC.swift */; };
+		379700EA1BED5DE400347C4C /* AGOworkOrdersVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379700E91BED5DE400347C4C /* AGOworkOrdersVC.swift */; };
+		379700EC1BED5FBD00347C4C /* AGOaccountBalanceVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379700EB1BED5FBD00347C4C /* AGOaccountBalanceVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,9 @@
 		14CCE26F1BE65D00008E5782 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		14CCE2721BE65D00008E5782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		14CCE2741BE65D00008E5782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		379700E71BED572C00347C4C /* AGOmailboxVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AGOmailboxVC.swift; path = ../AGOmailboxVC.swift; sourceTree = "<group>"; };
+		379700E91BED5DE400347C4C /* AGOworkOrdersVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AGOworkOrdersVC.swift; sourceTree = "<group>"; };
+		379700EB1BED5FBD00347C4C /* AGOaccountBalanceVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AGOaccountBalanceVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,9 +64,12 @@
 		14CCE2671BE65D00008E5782 /* BC-Agora */ = {
 			isa = PBXGroup;
 			children = (
+				379700E71BED572C00347C4C /* AGOmailboxVC.swift */,
 				14CCE2681BE65D00008E5782 /* AppDelegate.swift */,
 				14CCE26A1BE65D00008E5782 /* ViewController.swift */,
 				14CCE26C1BE65D00008E5782 /* Main.storyboard */,
+				379700EB1BED5FBD00347C4C /* AGOaccountBalanceVC.swift */,
+				379700E91BED5DE400347C4C /* AGOworkOrdersVC.swift */,
 				0556D0CF1BE6A28800899315 /* AGOmainVC.swift */,
 				0556D0CD1BE6A26500899315 /* AGOloginVC.swift */,
 				14CCE26F1BE65D00008E5782 /* Assets.xcassets */,
@@ -143,8 +152,11 @@
 			files = (
 				14CCE26B1BE65D00008E5782 /* ViewController.swift in Sources */,
 				14CCE2691BE65D00008E5782 /* AppDelegate.swift in Sources */,
+				379700EA1BED5DE400347C4C /* AGOworkOrdersVC.swift in Sources */,
+				379700EC1BED5FBD00347C4C /* AGOaccountBalanceVC.swift in Sources */,
 				0556D0CE1BE6A26500899315 /* AGOloginVC.swift in Sources */,
 				0556D0D01BE6A28800899315 /* AGOmainVC.swift in Sources */,
+				379700E81BED572C00347C4C /* AGOmailboxVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
