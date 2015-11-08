@@ -15,6 +15,11 @@ class AGOloginVC: UIViewController {
         // Do any additional setup after loading the view, typically from a nib.
     }
     
+    @IBAction func mainPageSegue(sender: AnyObject) {
+        performSegueWithIdentifier("segueToMainPage", sender: nil)
+    }
+    
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
