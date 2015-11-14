@@ -1,0 +1,510 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		059577361BF6D5AC00189C68 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 059577351BF6D5AC00189C68 /* AppDelegate.swift */; };
+		059577381BF6D5AC00189C68 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 059577371BF6D5AC00189C68 /* ViewController.swift */; };
+		0595773B1BF6D5AC00189C68 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 059577391BF6D5AC00189C68 /* Main.storyboard */; };
+		0595773D1BF6D5AC00189C68 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0595773C1BF6D5AC00189C68 /* Assets.xcassets */; };
+		059577401BF6D5AC00189C68 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0595773E1BF6D5AC00189C68 /* LaunchScreen.storyboard */; };
+		0595774B1BF6D5AC00189C68 /* BC_AgoraTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0595774A1BF6D5AC00189C68 /* BC_AgoraTests.swift */; };
+		059577561BF6D5AC00189C68 /* BC_AgoraUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 059577551BF6D5AC00189C68 /* BC_AgoraUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		059577471BF6D5AC00189C68 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0595772A1BF6D5AC00189C68 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 059577311BF6D5AC00189C68;
+			remoteInfo = "BC-Agora";
+		};
+		059577521BF6D5AC00189C68 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0595772A1BF6D5AC00189C68 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 059577311BF6D5AC00189C68;
+			remoteInfo = "BC-Agora";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		059577321BF6D5AC00189C68 /* BC-Agora.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BC-Agora.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		059577351BF6D5AC00189C68 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		059577371BF6D5AC00189C68 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0595773A1BF6D5AC00189C68 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0595773C1BF6D5AC00189C68 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0595773F1BF6D5AC00189C68 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		059577411BF6D5AC00189C68 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		059577461BF6D5AC00189C68 /* BC-AgoraTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "BC-AgoraTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0595774A1BF6D5AC00189C68 /* BC_AgoraTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BC_AgoraTests.swift; sourceTree = "<group>"; };
+		0595774C1BF6D5AC00189C68 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		059577511BF6D5AC00189C68 /* BC-AgoraUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "BC-AgoraUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		059577551BF6D5AC00189C68 /* BC_AgoraUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BC_AgoraUITests.swift; sourceTree = "<group>"; };
+		059577571BF6D5AC00189C68 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0595772F1BF6D5AC00189C68 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		059577431BF6D5AC00189C68 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0595774E1BF6D5AC00189C68 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		059577291BF6D5AC00189C68 = {
+			isa = PBXGroup;
+			children = (
+				059577341BF6D5AC00189C68 /* BC-Agora */,
+				059577491BF6D5AC00189C68 /* BC-AgoraTests */,
+				059577541BF6D5AC00189C68 /* BC-AgoraUITests */,
+				059577331BF6D5AC00189C68 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		059577331BF6D5AC00189C68 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				059577321BF6D5AC00189C68 /* BC-Agora.app */,
+				059577461BF6D5AC00189C68 /* BC-AgoraTests.xctest */,
+				059577511BF6D5AC00189C68 /* BC-AgoraUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		059577341BF6D5AC00189C68 /* BC-Agora */ = {
+			isa = PBXGroup;
+			children = (
+				059577351BF6D5AC00189C68 /* AppDelegate.swift */,
+				059577371BF6D5AC00189C68 /* ViewController.swift */,
+				059577391BF6D5AC00189C68 /* Main.storyboard */,
+				0595773C1BF6D5AC00189C68 /* Assets.xcassets */,
+				0595773E1BF6D5AC00189C68 /* LaunchScreen.storyboard */,
+				059577411BF6D5AC00189C68 /* Info.plist */,
+			);
+			path = "BC-Agora";
+			sourceTree = "<group>";
+		};
+		059577491BF6D5AC00189C68 /* BC-AgoraTests */ = {
+			isa = PBXGroup;
+			children = (
+				0595774A1BF6D5AC00189C68 /* BC_AgoraTests.swift */,
+				0595774C1BF6D5AC00189C68 /* Info.plist */,
+			);
+			path = "BC-AgoraTests";
+			sourceTree = "<group>";
+		};
+		059577541BF6D5AC00189C68 /* BC-AgoraUITests */ = {
+			isa = PBXGroup;
+			children = (
+				059577551BF6D5AC00189C68 /* BC_AgoraUITests.swift */,
+				059577571BF6D5AC00189C68 /* Info.plist */,
+			);
+			path = "BC-AgoraUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		059577311BF6D5AC00189C68 /* BC-Agora */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0595775A1BF6D5AC00189C68 /* Build configuration list for PBXNativeTarget "BC-Agora" */;
+			buildPhases = (
+				0595772E1BF6D5AC00189C68 /* Sources */,
+				0595772F1BF6D5AC00189C68 /* Frameworks */,
+				059577301BF6D5AC00189C68 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "BC-Agora";
+			productName = "BC-Agora";
+			productReference = 059577321BF6D5AC00189C68 /* BC-Agora.app */;
+			productType = "com.apple.product-type.application";
+		};
+		059577451BF6D5AC00189C68 /* BC-AgoraTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0595775D1BF6D5AC00189C68 /* Build configuration list for PBXNativeTarget "BC-AgoraTests" */;
+			buildPhases = (
+				059577421BF6D5AC00189C68 /* Sources */,
+				059577431BF6D5AC00189C68 /* Frameworks */,
+				059577441BF6D5AC00189C68 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				059577481BF6D5AC00189C68 /* PBXTargetDependency */,
+			);
+			name = "BC-AgoraTests";
+			productName = "BC-AgoraTests";
+			productReference = 059577461BF6D5AC00189C68 /* BC-AgoraTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		059577501BF6D5AC00189C68 /* BC-AgoraUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 059577601BF6D5AC00189C68 /* Build configuration list for PBXNativeTarget "BC-AgoraUITests" */;
+			buildPhases = (
+				0595774D1BF6D5AC00189C68 /* Sources */,
+				0595774E1BF6D5AC00189C68 /* Frameworks */,
+				0595774F1BF6D5AC00189C68 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				059577531BF6D5AC00189C68 /* PBXTargetDependency */,
+			);
+			name = "BC-AgoraUITests";
+			productName = "BC-AgoraUITests";
+			productReference = 059577511BF6D5AC00189C68 /* BC-AgoraUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0595772A1BF6D5AC00189C68 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "William Bowditch";
+				TargetAttributes = {
+					059577311BF6D5AC00189C68 = {
+						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = JQ95L27YLT;
+					};
+					059577451BF6D5AC00189C68 = {
+						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = JQ95L27YLT;
+						TestTargetID = 059577311BF6D5AC00189C68;
+					};
+					059577501BF6D5AC00189C68 = {
+						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = JQ95L27YLT;
+						TestTargetID = 059577311BF6D5AC00189C68;
+					};
+				};
+			};
+			buildConfigurationList = 0595772D1BF6D5AC00189C68 /* Build configuration list for PBXProject "BC-Agora" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 059577291BF6D5AC00189C68;
+			productRefGroup = 059577331BF6D5AC00189C68 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				059577311BF6D5AC00189C68 /* BC-Agora */,
+				059577451BF6D5AC00189C68 /* BC-AgoraTests */,
+				059577501BF6D5AC00189C68 /* BC-AgoraUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		059577301BF6D5AC00189C68 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				059577401BF6D5AC00189C68 /* LaunchScreen.storyboard in Resources */,
+				0595773D1BF6D5AC00189C68 /* Assets.xcassets in Resources */,
+				0595773B1BF6D5AC00189C68 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		059577441BF6D5AC00189C68 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0595774F1BF6D5AC00189C68 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0595772E1BF6D5AC00189C68 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				059577381BF6D5AC00189C68 /* ViewController.swift in Sources */,
+				059577361BF6D5AC00189C68 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		059577421BF6D5AC00189C68 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0595774B1BF6D5AC00189C68 /* BC_AgoraTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0595774D1BF6D5AC00189C68 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				059577561BF6D5AC00189C68 /* BC_AgoraUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		059577481BF6D5AC00189C68 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 059577311BF6D5AC00189C68 /* BC-Agora */;
+			targetProxy = 059577471BF6D5AC00189C68 /* PBXContainerItemProxy */;
+		};
+		059577531BF6D5AC00189C68 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 059577311BF6D5AC00189C68 /* BC-Agora */;
+			targetProxy = 059577521BF6D5AC00189C68 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		059577391BF6D5AC00189C68 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0595773A1BF6D5AC00189C68 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0595773E1BF6D5AC00189C68 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0595773F1BF6D5AC00189C68 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		059577581BF6D5AC00189C68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		059577591BF6D5AC00189C68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0595775B1BF6D5AC00189C68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "BC-Agora/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.bc.cs.bowditch.BC-Agora";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0595775C1BF6D5AC00189C68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "BC-Agora/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.bc.cs.bowditch.BC-Agora";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		0595775E1BF6D5AC00189C68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "BC-AgoraTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.bc.cs.bowditch.BC-AgoraTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BC-Agora.app/BC-Agora";
+			};
+			name = Debug;
+		};
+		0595775F1BF6D5AC00189C68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "BC-AgoraTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.bc.cs.bowditch.BC-AgoraTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BC-Agora.app/BC-Agora";
+			};
+			name = Release;
+		};
+		059577611BF6D5AC00189C68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "BC-AgoraUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.bc.cs.bowditch.BC-AgoraUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "BC-Agora";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		059577621BF6D5AC00189C68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "BC-AgoraUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.bc.cs.bowditch.BC-AgoraUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "BC-Agora";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0595772D1BF6D5AC00189C68 /* Build configuration list for PBXProject "BC-Agora" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				059577581BF6D5AC00189C68 /* Debug */,
+				059577591BF6D5AC00189C68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0595775A1BF6D5AC00189C68 /* Build configuration list for PBXNativeTarget "BC-Agora" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0595775B1BF6D5AC00189C68 /* Debug */,
+				0595775C1BF6D5AC00189C68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0595775D1BF6D5AC00189C68 /* Build configuration list for PBXNativeTarget "BC-AgoraTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0595775E1BF6D5AC00189C68 /* Debug */,
+				0595775F1BF6D5AC00189C68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		059577601BF6D5AC00189C68 /* Build configuration list for PBXNativeTarget "BC-AgoraUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				059577611BF6D5AC00189C68 /* Debug */,
+				059577621BF6D5AC00189C68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0595772A1BF6D5AC00189C68 /* Project object */;
+}
