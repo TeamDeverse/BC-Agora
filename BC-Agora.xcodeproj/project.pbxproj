@@ -14,6 +14,10 @@
 		059577401BF6D5AC00189C68 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0595773E1BF6D5AC00189C68 /* LaunchScreen.storyboard */; };
 		0595774B1BF6D5AC00189C68 /* BC_AgoraTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0595774A1BF6D5AC00189C68 /* BC_AgoraTests.swift */; };
 		059577561BF6D5AC00189C68 /* BC_AgoraUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 059577551BF6D5AC00189C68 /* BC_AgoraUITests.swift */; };
+		059577641BF6DF9A00189C68 /* BAPMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 059577631BF6DF9A00189C68 /* BAPMainView.swift */; };
+		059577661BF6E13100189C68 /* BAPWorkOrders.swift in Sources */ = {isa = PBXBuildFile; fileRef = 059577651BF6E13100189C68 /* BAPWorkOrders.swift */; };
+		059577681BF6E18F00189C68 /* BAPMailbox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 059577671BF6E18F00189C68 /* BAPMailbox.swift */; };
+		0595776A1BF6E1B900189C68 /* BAPDining.swift in Sources */ = {isa = PBXBuildFile; fileRef = 059577691BF6E1B900189C68 /* BAPDining.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +51,10 @@
 		059577511BF6D5AC00189C68 /* BC-AgoraUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "BC-AgoraUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		059577551BF6D5AC00189C68 /* BC_AgoraUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BC_AgoraUITests.swift; sourceTree = "<group>"; };
 		059577571BF6D5AC00189C68 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		059577631BF6DF9A00189C68 /* BAPMainView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BAPMainView.swift; sourceTree = "<group>"; };
+		059577651BF6E13100189C68 /* BAPWorkOrders.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BAPWorkOrders.swift; sourceTree = "<group>"; };
+		059577671BF6E18F00189C68 /* BAPMailbox.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BAPMailbox.swift; sourceTree = "<group>"; };
+		059577691BF6E1B900189C68 /* BAPDining.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BAPDining.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,9 +105,13 @@
 		059577341BF6D5AC00189C68 /* BC-Agora */ = {
 			isa = PBXGroup;
 			children = (
+				059577631BF6DF9A00189C68 /* BAPMainView.swift */,
 				059577351BF6D5AC00189C68 /* AppDelegate.swift */,
 				059577371BF6D5AC00189C68 /* ViewController.swift */,
 				059577391BF6D5AC00189C68 /* Main.storyboard */,
+				059577691BF6E1B900189C68 /* BAPDining.swift */,
+				059577671BF6E18F00189C68 /* BAPMailbox.swift */,
+				059577651BF6E13100189C68 /* BAPWorkOrders.swift */,
 				0595773C1BF6D5AC00189C68 /* Assets.xcassets */,
 				0595773E1BF6D5AC00189C68 /* LaunchScreen.storyboard */,
 				059577411BF6D5AC00189C68 /* Info.plist */,
@@ -259,8 +271,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0595776A1BF6E1B900189C68 /* BAPDining.swift in Sources */,
 				059577381BF6D5AC00189C68 /* ViewController.swift in Sources */,
+				059577641BF6DF9A00189C68 /* BAPMainView.swift in Sources */,
 				059577361BF6D5AC00189C68 /* AppDelegate.swift in Sources */,
+				059577661BF6E13100189C68 /* BAPWorkOrders.swift in Sources */,
+				059577681BF6E18F00189C68 /* BAPMailbox.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
