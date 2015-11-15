@@ -41,7 +41,7 @@
                                     <color key="titleColor" red="0.50196081400000003" green="0.0" blue="0.0" alpha="0.64496228450000004" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
-                                    <segue destination="eCQ-Qz-07F" kind="push" id="bMy-n1-ML0"/>
+                                    <action selector="pressLogin:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ak2-CJ-TUB"/>
                                 </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" image="BostonCollegeEagles.svg" translatesAutoresizingMaskIntoConstraints="NO" id="h4c-lV-Pjf">
@@ -50,7 +50,7 @@
                             </imageView>
                         </subviews>
                         <animations/>
-                        <color key="backgroundColor" red="1" green="0.93989723015568516" blue="0.61827964043051642" alpha="0.5" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" red="0.99607843139999996" green="0.96862745100000003" blue="0.80000000000000004" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstItem="h4c-lV-Pjf" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="8" id="8TK-tb-ShV"/>
                             <constraint firstItem="Fl7-jw-Cbi" firstAttribute="top" secondItem="LOJ-bQ-OMg" secondAttribute="bottom" constant="13" id="CuI-cK-YzI"/>
@@ -72,6 +72,9 @@
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
                     <connections>
                         <outlet property="bcLogo" destination="h4c-lV-Pjf" id="A1U-Qp-xr4"/>
+                        <outlet property="password" destination="Fl7-jw-Cbi" id="rBL-3Z-9DQ"/>
+                        <outlet property="user" destination="LOJ-bQ-OMg" id="OfU-JT-LMG"/>
+                        <segue destination="eCQ-Qz-07F" kind="show" identifier="loginSegue" id="mBU-Ug-WDK"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -120,7 +123,7 @@
                             </tableView>
                         </subviews>
                         <animations/>
-                        <color key="backgroundColor" red="1" green="0.93989723020000004" blue="0.61827964040000005" alpha="0.5" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" red="0.99607843139999996" green="0.96862745100000003" blue="0.80000000000000004" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstItem="ThT-FS-4rC" firstAttribute="centerY" secondItem="06n-eG-gSJ" secondAttribute="centerY" id="MQz-nn-d1x"/>
                             <constraint firstItem="ThT-FS-4rC" firstAttribute="leading" secondItem="06n-eG-gSJ" secondAttribute="leadingMargin" constant="25" id="e5Y-ut-uGW"/>
@@ -136,7 +139,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="EAb-iE-cNa" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1732" y="-473"/>
+            <point key="canvasLocation" x="1738" y="-479"/>
         </scene>
         <!--Main Menu-->
         <scene sceneID="o5m-Oj-J8f">
@@ -193,7 +196,7 @@
                             </button>
                         </subviews>
                         <animations/>
-                        <color key="backgroundColor" red="1" green="0.93989723020000004" blue="0.61827964040000005" alpha="0.5" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" red="0.99607843139999996" green="0.96862745100000003" blue="0.80000000000000004" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstItem="mWY-tR-ICH" firstAttribute="height" secondItem="Mdh-Jo-gMY" secondAttribute="height" id="0aR-B6-X9y"/>
                             <constraint firstItem="dfA-Wt-Yx8" firstAttribute="top" secondItem="Mdh-Jo-gMY" secondAttribute="bottom" constant="130" id="0jn-d6-gQO"/>
@@ -278,7 +281,7 @@
                             </tableView>
                         </subviews>
                         <animations/>
-                        <color key="backgroundColor" red="1" green="0.93989723020000004" blue="0.61827964040000005" alpha="0.5" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" red="0.99607843139999996" green="0.96862745100000003" blue="0.80000000000000004" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstItem="ep6-IB-9QI" firstAttribute="centerX" secondItem="xRO-gn-zVS" secondAttribute="centerX" id="DnE-Yl-AyA"/>
                             <constraint firstItem="ep6-IB-9QI" firstAttribute="top" secondItem="rd0-3g-av3" secondAttribute="bottom" constant="51" id="Qb7-r0-O5V"/>
@@ -352,7 +355,7 @@
                             </button>
                         </subviews>
                         <animations/>
-                        <color key="backgroundColor" red="1" green="0.93989723020000004" blue="0.61827964040000005" alpha="0.5" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" red="0.99607843139999996" green="0.96862745100000003" blue="0.80000000000000004" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstItem="NY8-dx-uN5" firstAttribute="top" secondItem="QkI-ta-HbQ" secondAttribute="bottom" constant="31" id="Ckc-xR-HZA"/>
                             <constraint firstAttribute="trailingMargin" secondItem="NeF-rS-Uqu" secondAttribute="trailing" constant="-10" id="JQX-2o-fL8"/>
