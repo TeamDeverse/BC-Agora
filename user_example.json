@@ -1,0 +1,29 @@
+{
+"username":"jsmyth",
+"password":"sucks2bu!5",
+"firstname":"Jimbo",
+"lastname":"Smyth",
+"eagleID":12345678,
+"mailbox":{
+	"code":1337,
+	"dormname":"Walsh Hall",
+	"dormnumber":246
+},
+"dining":{
+	"diningbucks":452.08,
+	"eaglebucks":37.80,
+	"flexplan":0.0
+},
+"studentinfo":{
+	"gpa":3.5,
+	"classes":[
+	 	{
+			"classname":"",
+			"location":"",
+			"professor":"",
+			"time": "MWF",
+			"days": "10:30"
+		}
+	]
+}
+}
