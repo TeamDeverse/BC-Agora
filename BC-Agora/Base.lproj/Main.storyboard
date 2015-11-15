@@ -19,21 +19,21 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Username" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="LOJ-bQ-OMg">
-                                <rect key="frame" x="48" y="99" width="224" height="30"/>
+                                <rect key="frame" x="44" y="83" width="232" height="30"/>
                                 <animations/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="0.59999999999999998" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Fl7-jw-Cbi">
-                                <rect key="frame" x="48" y="142" width="224" height="30"/>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Fl7-jw-Cbi">
+                                <rect key="frame" x="44" y="151" width="232" height="30"/>
                                 <animations/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="0.59999999999999998" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8iA-H7-8If">
-                                <rect key="frame" x="138" y="190" width="45" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8iA-H7-8If">
+                                <rect key="frame" x="134" y="228" width="53" height="30"/>
                                 <animations/>
                                 <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="15"/>
                                 <size key="titleShadowOffset" width="20" height="11"/>
@@ -44,26 +44,47 @@
                                     <action selector="pressLogin:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ak2-CJ-TUB"/>
                                 </connections>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" image="BostonCollegeEagles.svg" translatesAutoresizingMaskIntoConstraints="NO" id="h4c-lV-Pjf">
-                                <rect key="frame" x="24" y="288" width="272" height="252"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" misplaced="YES" image="BostonCollegeEagles.svg" translatesAutoresizingMaskIntoConstraints="NO" id="h4c-lV-Pjf">
+                                <rect key="frame" x="20" y="287" width="280" height="252.5"/>
                                 <animations/>
                             </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9Ct-HI-OSP">
+                                <rect key="frame" x="40" y="121" width="240" height="20.5"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="w6C-mz-UW9">
+                                <rect key="frame" x="40" y="189" width="240" height="20.5"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <animations/>
                         <color key="backgroundColor" red="0.99607843139999996" green="0.96862745100000003" blue="0.80000000000000004" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
-                            <constraint firstItem="h4c-lV-Pjf" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="8" id="8TK-tb-ShV"/>
-                            <constraint firstItem="Fl7-jw-Cbi" firstAttribute="top" secondItem="LOJ-bQ-OMg" secondAttribute="bottom" constant="13" id="CuI-cK-YzI"/>
-                            <constraint firstItem="8iA-H7-8If" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="FcV-eV-f5w"/>
-                            <constraint firstItem="Fl7-jw-Cbi" firstAttribute="trailing" secondItem="LOJ-bQ-OMg" secondAttribute="trailing" id="GAH-fz-8im"/>
-                            <constraint firstItem="h4c-lV-Pjf" firstAttribute="centerX" secondItem="8iA-H7-8If" secondAttribute="centerX" id="I5G-Su-wa5"/>
-                            <constraint firstItem="h4c-lV-Pjf" firstAttribute="top" secondItem="8iA-H7-8If" secondAttribute="bottom" constant="68" id="LqY-7e-4Bd"/>
-                            <constraint firstItem="8iA-H7-8If" firstAttribute="top" secondItem="Fl7-jw-Cbi" secondAttribute="bottom" constant="18" id="MNI-i2-CeP"/>
-                            <constraint firstItem="LOJ-bQ-OMg" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="32" id="MjH-gd-teP"/>
-                            <constraint firstItem="LOJ-bQ-OMg" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="35" id="QSc-Z4-OdP"/>
-                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="h4c-lV-Pjf" secondAttribute="bottom" constant="28" id="c6Y-SU-WwJ"/>
-                            <constraint firstItem="LOJ-bQ-OMg" firstAttribute="leading" secondItem="Fl7-jw-Cbi" secondAttribute="leading" id="p1v-yL-ouk"/>
-                            <constraint firstItem="Fl7-jw-Cbi" firstAttribute="centerX" secondItem="8iA-H7-8If" secondAttribute="centerX" id="rBa-2k-7q8"/>
+                            <constraint firstItem="h4c-lV-Pjf" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="4" id="2S1-Rr-Q74"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="h4c-lV-Pjf" secondAttribute="bottom" constant="28" id="3Qw-xE-B6m"/>
+                            <constraint firstItem="9Ct-HI-OSP" firstAttribute="top" secondItem="LOJ-bQ-OMg" secondAttribute="bottom" constant="8" id="6LN-sB-i0y"/>
+                            <constraint firstItem="w6C-mz-UW9" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="24" id="Dch-sZ-aGT"/>
+                            <constraint firstItem="LOJ-bQ-OMg" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="19" id="HyH-0Q-DMS"/>
+                            <constraint firstItem="Fl7-jw-Cbi" firstAttribute="top" secondItem="9Ct-HI-OSP" secondAttribute="bottom" constant="10" id="Ian-dx-Ihu"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="h4c-lV-Pjf" secondAttribute="trailing" constant="4" id="Lvd-lt-xji"/>
+                            <constraint firstItem="9Ct-HI-OSP" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="24" id="Nly-j7-LxP"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="w6C-mz-UW9" secondAttribute="trailing" constant="24" id="Nsp-sk-J31"/>
+                            <constraint firstItem="8iA-H7-8If" firstAttribute="top" secondItem="Fl7-jw-Cbi" secondAttribute="bottom" constant="47" id="ZPA-ae-n1y"/>
+                            <constraint firstItem="h4c-lV-Pjf" firstAttribute="top" secondItem="8iA-H7-8If" secondAttribute="bottom" constant="29" id="bDU-PF-3IQ"/>
+                            <constraint firstItem="8iA-H7-8If" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="118" id="gPl-N3-kBD"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Fl7-jw-Cbi" secondAttribute="trailing" constant="28" id="hUd-b0-Tbo"/>
+                            <constraint firstItem="Fl7-jw-Cbi" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="28" id="i3b-dd-FzN"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="LOJ-bQ-OMg" secondAttribute="trailing" constant="28" id="ln3-Bx-hP3"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="8iA-H7-8If" secondAttribute="trailing" constant="117" id="t0e-la-Txu"/>
+                            <constraint firstItem="w6C-mz-UW9" firstAttribute="top" secondItem="Fl7-jw-Cbi" secondAttribute="bottom" constant="8" id="ufV-6a-ZLl"/>
+                            <constraint firstItem="LOJ-bQ-OMg" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="28" id="umC-gb-IFh"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="9Ct-HI-OSP" secondAttribute="trailing" constant="24" id="xtV-Ny-KOp"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Agora Portal" id="DxU-MC-3ab">
@@ -74,6 +95,8 @@
                         <outlet property="bcLogo" destination="h4c-lV-Pjf" id="A1U-Qp-xr4"/>
                         <outlet property="password" destination="Fl7-jw-Cbi" id="rBL-3Z-9DQ"/>
                         <outlet property="user" destination="LOJ-bQ-OMg" id="OfU-JT-LMG"/>
+                        <outlet property="wrongPassword" destination="w6C-mz-UW9" id="a1d-xR-7Tn"/>
+                        <outlet property="wrongUser" destination="9Ct-HI-OSP" id="UX4-Jo-xta"/>
                         <segue destination="eCQ-Qz-07F" kind="show" identifier="loginSegue" id="mBU-Ug-WDK"/>
                     </connections>
                 </viewController>

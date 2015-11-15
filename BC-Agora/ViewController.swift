@@ -15,6 +15,9 @@ class ViewController: UIViewController {
     @IBOutlet var user: UITextField!
     @IBOutlet var password: UITextField!
     
+    @IBOutlet var wrongUser: UILabel!
+    @IBOutlet var wrongPassword: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         bcLogo.image = UIImage(named: "BostonCollegeEagles.svg")
@@ -37,6 +40,8 @@ class ViewController: UIViewController {
     }
 
     @IBAction func pressLogin(sender: AnyObject) {
+        self.wrongPassword.text?.removeAll()
+        self.wrongUser.text?.removeAll()
         checkLogin()
         
     }
@@ -46,6 +51,13 @@ class ViewController: UIViewController {
         //run code before checkLogin code
     }
     func checkLogin(){
+        if self.user.text == "" {
+            wrongUser.text = "Please enter a username."
+        }
+        
+        if self.password.text == "" {
+            wrongPassword.text = "Please enter a password."
+        }
         if self.user.text != "" && self.password.text != "" {
             print("not empty")
             self.performSegueWithIdentifier("loginSegue", sender: nil)
