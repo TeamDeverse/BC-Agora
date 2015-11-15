@@ -25,15 +25,15 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Fl7-jw-Cbi">
-                                <rect key="frame" x="44" y="151" width="232" height="30"/>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Fl7-jw-Cbi">
+                                <rect key="frame" x="44" y="130.5" width="232" height="30"/>
                                 <animations/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="0.59999999999999998" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8iA-H7-8If">
-                                <rect key="frame" x="134" y="228" width="53" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8iA-H7-8If">
+                                <rect key="frame" x="134" y="207.5" width="53" height="30"/>
                                 <animations/>
                                 <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="15"/>
                                 <size key="titleShadowOffset" width="20" height="11"/>
@@ -44,19 +44,19 @@
                                     <action selector="pressLogin:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ak2-CJ-TUB"/>
                                 </connections>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" misplaced="YES" image="BostonCollegeEagles.svg" translatesAutoresizingMaskIntoConstraints="NO" id="h4c-lV-Pjf">
-                                <rect key="frame" x="20" y="287" width="280" height="252.5"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" image="BostonCollegeEagles.svg" translatesAutoresizingMaskIntoConstraints="NO" id="h4c-lV-Pjf">
+                                <rect key="frame" x="20" y="266.5" width="280" height="273"/>
                                 <animations/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9Ct-HI-OSP">
-                                <rect key="frame" x="40" y="121" width="240" height="20.5"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9Ct-HI-OSP">
+                                <rect key="frame" x="40" y="121" width="240" height="0.0"/>
                                 <animations/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="w6C-mz-UW9">
-                                <rect key="frame" x="40" y="189" width="240" height="20.5"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="w6C-mz-UW9">
+                                <rect key="frame" x="40" y="168.5" width="240" height="0.0"/>
                                 <animations/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
@@ -182,7 +182,7 @@
                                 <accessibility key="accessibilityConfiguration">
                                     <accessibilityTraits key="traits" button="YES" image="YES"/>
                                 </accessibility>
-                                <state key="normal" title="Button" image="account_balance"/>
+                                <state key="normal" title="Button" image="classes"/>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mWY-tR-ICH">
                                 <rect key="frame" x="179" y="131" width="109" height="93"/>
@@ -192,7 +192,7 @@
                                 </accessibility>
                                 <state key="normal" title="Button" image="mailbox_combo"/>
                                 <connections>
-                                    <segue destination="r2X-uY-HxG" kind="push" id="1jy-oT-RwH"/>
+                                    <segue destination="r2X-uY-HxG" kind="show" id="r5H-Og-lmT"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dfA-Wt-Yx8">
@@ -203,7 +203,7 @@
                                 </accessibility>
                                 <state key="normal" title="Button" image="account_balance"/>
                                 <connections>
-                                    <segue destination="ioN-Xu-5Tz" kind="push" id="YGf-ig-Grn"/>
+                                    <segue destination="ioN-Xu-5Tz" kind="show" id="Zhm-87-aQ4"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="utZ-wH-7ZM">
@@ -214,7 +214,7 @@
                                 </accessibility>
                                 <state key="normal" title="Button" image="word_order"/>
                                 <connections>
-                                    <segue destination="eSX-Rh-fjW" kind="push" id="xEg-bG-YT1"/>
+                                    <segue destination="eSX-Rh-fjW" kind="show" id="nu0-0w-Wd7"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -428,6 +428,7 @@
     <resources>
         <image name="BostonCollegeEagles.svg" width="1128" height="1024"/>
         <image name="account_balance" width="300" height="300"/>
+        <image name="classes" width="300" height="300"/>
         <image name="mailbox_combo" width="300" height="300"/>
         <image name="word_order" width="300" height="300"/>
     </resources>

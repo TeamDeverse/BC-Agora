@@ -32,6 +32,8 @@ class ViewController: UIViewController {
         
         navigationController?.navigationBar.tintColor = UIColor.whiteColor()
         // Do any additional setup after loading the view, typically from a nib.
+        
+         self.view.backgroundColor = UIColor(patternImage: UIImage(named: "gasson")!)
     }
 
     override func didReceiveMemoryWarning() {
