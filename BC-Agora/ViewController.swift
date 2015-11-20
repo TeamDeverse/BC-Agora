@@ -73,7 +73,7 @@ class ViewController: UIViewController {
         self.view.insertSubview(imageView, atIndex: 0)
         
         //self.view.addSubview(imageView)
-        
+        print("test")
         
         button.frame = CGRectMake(100, 100, 200, 40)
         button.setTitle("Login", forState: UIControlState.Normal)
