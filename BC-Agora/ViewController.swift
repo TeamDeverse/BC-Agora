@@ -66,10 +66,11 @@ class ViewController: UIViewController {
         UIImage(named: "gasson")?.drawInRect(self.view.bounds)
         
         let image: UIImage = UIGraphicsGetImageFromCurrentImageContext()
-        
+        //let imageView = UIImageView(image: image)
+        //imageView.alpha = 0.9
         UIGraphicsEndImageContext()
         
-        
+        //self.view.addSubview(imageView)
         
         
         button.frame = CGRectMake(100, 100, 200, 40)
@@ -82,7 +83,7 @@ class ViewController: UIViewController {
         
         
         
-        self.view.backgroundColor = UIColor(patternImage: image).colorWithAlphaComponent(0.7)
+        self.view.backgroundColor = UIColor(patternImage: image) //.colorWithAlphaComponent(0.7)//
         
         
         

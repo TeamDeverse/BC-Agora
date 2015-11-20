@@ -35,14 +35,19 @@ class BAPMainView: UIViewController {
         
         //combo.text! = json_dict["mailbox"]!["code"] as! String
         
-//        UIGraphicsBeginImageContext(self.view.frame.size)
-//        UIImage(named: "gasson")?.drawInRect(self.view.bounds)
-//        
-//        let image: UIImage = UIGraphicsGetImageFromCurrentImageContext()
-//        
-//        UIGraphicsEndImageContext()
-//        self.view.backgroundColor = UIColor(patternImage: image).colorWithAlphaComponent(0.7)
+        UIGraphicsBeginImageContext(self.view.frame.size)
+        UIImage(named: "main_babst")?.drawInRect(self.view.bounds)
         
+        let image: UIImage = UIGraphicsGetImageFromCurrentImageContext()
+        let imageView = UIImageView(image: image)
+        imageView.alpha = 0.5
+        
+        UIGraphicsEndImageContext()
+        
+        self.view.addSubview(imageView)
+        //self.view.backgroundColor = UIColor(patternImage: image).colorWithAlphaComponent(0.9)
+        
+       // view.backgroundColor = UIColor(patternImage: imageView)
         // Do any additional setup after loading the view.
     }
 
@@ -68,6 +73,8 @@ class BAPMainView: UIViewController {
         }
         return [:]
     }
+    
+    
 
     
 

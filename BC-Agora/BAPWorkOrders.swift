@@ -41,6 +41,17 @@ class BAPWorkOrders: UIViewController {
         laundry.layer.borderWidth = 1.0
         laundry.layer.borderColor = UIColor(white: 0.0, alpha: borderAlpha).CGColor
         laundry.layer.cornerRadius = cornerRadius
+        
+        UIGraphicsBeginImageContext(self.view.frame.size)
+        UIImage(named: "gasson_statue")?.drawInRect(self.view.bounds)
+        
+        let image: UIImage = UIGraphicsGetImageFromCurrentImageContext()
+        let imageView = UIImageView(image: image)
+        imageView.alpha = 0.5
+        
+        UIGraphicsEndImageContext()
+        
+        self.view.addSubview(imageView)
 
         // Do any additional setup after loading the view.
     }
