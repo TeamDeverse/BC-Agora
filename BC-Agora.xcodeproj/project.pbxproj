@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		05433EFE1BFF1152001107D5 /* BAPStudentInformation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05433EFD1BFF1152001107D5 /* BAPStudentInformation.swift */; };
 		059577361BF6D5AC00189C68 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 059577351BF6D5AC00189C68 /* AppDelegate.swift */; };
 		059577381BF6D5AC00189C68 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 059577371BF6D5AC00189C68 /* ViewController.swift */; };
 		0595773B1BF6D5AC00189C68 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 059577391BF6D5AC00189C68 /* Main.storyboard */; };
@@ -38,6 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		05433EFD1BFF1152001107D5 /* BAPStudentInformation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BAPStudentInformation.swift; sourceTree = "<group>"; };
 		059577321BF6D5AC00189C68 /* BC-Agora.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BC-Agora.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		059577351BF6D5AC00189C68 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		059577371BF6D5AC00189C68 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -109,6 +111,7 @@
 				059577351BF6D5AC00189C68 /* AppDelegate.swift */,
 				059577371BF6D5AC00189C68 /* ViewController.swift */,
 				059577391BF6D5AC00189C68 /* Main.storyboard */,
+				05433EFD1BFF1152001107D5 /* BAPStudentInformation.swift */,
 				059577691BF6E1B900189C68 /* BAPDining.swift */,
 				059577671BF6E18F00189C68 /* BAPMailbox.swift */,
 				059577651BF6E13100189C68 /* BAPWorkOrders.swift */,
@@ -271,6 +274,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				05433EFE1BFF1152001107D5 /* BAPStudentInformation.swift in Sources */,
 				0595776A1BF6E1B900189C68 /* BAPDining.swift in Sources */,
 				059577381BF6D5AC00189C68 /* ViewController.swift in Sources */,
 				059577641BF6DF9A00189C68 /* BAPMainView.swift in Sources */,
@@ -503,6 +507,7 @@
 				0595775C1BF6D5AC00189C68 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0595775D1BF6D5AC00189C68 /* Build configuration list for PBXNativeTarget "BC-AgoraTests" */ = {
 			isa = XCConfigurationList;
@@ -511,6 +516,7 @@
 				0595775F1BF6D5AC00189C68 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		059577601BF6D5AC00189C68 /* Build configuration list for PBXNativeTarget "BC-AgoraUITests" */ = {
 			isa = XCConfigurationList;
@@ -519,6 +525,7 @@
 				059577621BF6D5AC00189C68 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

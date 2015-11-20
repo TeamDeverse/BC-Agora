@@ -10,10 +10,39 @@ import UIKit
 
 class BAPMainView: UIViewController {
 
+    @IBOutlet var welcome_message: UILabel!
+    @IBOutlet var eagle_bucks: UILabel!
+    @IBOutlet var combo: UILabel!
     @IBOutlet var diningImage: UIImageView!
+    
+    var json_dict = [:]
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        let json_data = getJSON("https://raw.githubusercontent.com/TeamDeverse/BC-Agora/master/user_example.json")
+        
+        json_dict = getJSON_dict(json_data)
+        welcome_message.text = "Welcome, " + (json_dict["firstname"]! as! String) + "!"
+        
+        let f0 = json_dict["dining"]!["eaglebucks"] as! Float
+        let s0 = NSString(format: "%.2f", f0)
+        eagle_bucks.text = "$" + (s0 as String)
+        
+        ////let f1 = json_dict["mailbox"]!["code"] as! Int
+        //let s1 = String(f1)
+        combo.text = json_dict["mailbox"]!["code"] as? String
+        
+        //combo.text! = json_dict["mailbox"]!["code"] as! String
+        
+//        UIGraphicsBeginImageContext(self.view.frame.size)
+//        UIImage(named: "gasson")?.drawInRect(self.view.bounds)
+//        
+//        let image: UIImage = UIGraphicsGetImageFromCurrentImageContext()
+//        
+//        UIGraphicsEndImageContext()
+//        self.view.backgroundColor = UIColor(patternImage: image).colorWithAlphaComponent(0.7)
+        
         // Do any additional setup after loading the view.
     }
 
@@ -22,6 +51,24 @@ class BAPMainView: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+    
+    func getJSON(urlToRequest: String) -> NSData{
+        return NSData(contentsOfURL: NSURL(string: urlToRequest)!)!
+    }
+    
+    func getJSON_dict(json_data: NSData) -> NSDictionary {
+        do {
+            if let jsonResult = try NSJSONSerialization.JSONObjectWithData(json_data, options: []) as? NSDictionary {
+                return jsonResult
+                //let k = jsonResult.allKeys
+                //print(k)
+            }
+        } catch {
+            print(error)
+        }
+        return [:]
+    }
+
     
 
     /*
