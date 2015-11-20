@@ -3,7 +3,7 @@
 "password":"sucks2bu!5",
 "firstname":"Jimbo",
 "lastname":"Smyth",
-"eagleID":12345678,
+"eagleID":56724234,
 "mailbox":{
 	"code":1337,
 	"dormname":"Walsh Hall",
@@ -15,15 +15,21 @@
 	"flexplan":0.0
 },
 "studentinfo":{
-	"gpa":3.5,
+	"gpa":3.50,
 	"classes":[
 	 	{
-			"classname":"",
-			"location":"",
-			"professor":"",
-			"time": "MWF",
-			"days": "10:30"
-		}
+			"classname":"Robotics",
+			"location":"Fulton 420",
+			"professor":"Signorile",
+			"time": "MWF1",
+		},
+		{
+			"classname":"Artificial Intelligence",
+			"location":"Stokes S 110",
+			"professor":"Alvarez",
+			"time": "TTH9",
+		},
+		
 	]
 }
 }
