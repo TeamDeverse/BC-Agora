@@ -20,15 +20,34 @@
 	 	{
 			"classname":"Robotics",
 			"location":"Fulton 420",
-			"professor":"Signorile",
+			"professor":"Robert Signorile",
 			"time": "MWF1",
 		},
 		{
 			"classname":"Artificial Intelligence",
 			"location":"Stokes S 110",
-			"professor":"Alvarez",
+			"professor":"Sergio Alvarez",
 			"time": "TTH9",
 		},
+		{
+			"classname":"Computer Organization",
+			"location":"Fulton 550",
+			"professor":"Kathryn Laurie",
+			"time": "MW10",
+		},
+		{
+			"classname":"Globalization I",
+			"location":"Devlin 009",
+			"professor":"Hannah Farber",
+			"time": "TTH12",
+		},
+		{
+			"classname":"Linear Algebra",
+			"location":"Campion 330",
+			"professor":"David Wolfe",
+			"time": "MWF12",
+		},
+		
 		
 	]
 }
