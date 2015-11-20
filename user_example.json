@@ -1,0 +1,54 @@
+{
+"username":"jsmyth",
+"password":"sucks2bu!5",
+"firstname":"Jimbo",
+"lastname":"Smyth",
+"eagleID":56724234,
+"mailbox":{
+	"code":"1-3-3-7",
+	"dormname":"Walsh Hall",
+	"dormnumber":246
+},
+"dining":{
+	"diningbucks":452.08,
+	"eaglebucks":37.80,
+	"flexplan":0.00
+},
+"studentinfo":{
+	"gpa":3.50,
+	"classes":[
+	 	{
+			"classname":"Robotics",
+			"location":"Fulton 420",
+			"professor":"Robert Signorile",
+			"time": "MWF1",
+		},
+		{
+			"classname":"Artificial Intelligence",
+			"location":"Stokes S 110",
+			"professor":"Sergio Alvarez",
+			"time": "TTH9",
+		},
+		{
+			"classname":"Computer Organization",
+			"location":"Fulton 550",
+			"professor":"Kathryn Laurie",
+			"time": "MW10",
+		},
+		{
+			"classname":"Globalization I",
+			"location":"Devlin 009",
+			"professor":"Hannah Farber",
+			"time": "TTH12",
+		},
+		{
+			"classname":"Linear Algebra",
+			"location":"Campion 330",
+			"professor":"David Wolfe",
+			"time": "MWF12",
+		}
+		
+		
+	]
+}
+}

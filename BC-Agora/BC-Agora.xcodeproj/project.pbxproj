@@ -1,0 +1,314 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0556D0CE1BE6A26500899315 /* AGOloginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0556D0CD1BE6A26500899315 /* AGOloginVC.swift */; };
+		0556D0D01BE6A28800899315 /* AGOmainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0556D0CF1BE6A28800899315 /* AGOmainVC.swift */; };
+		14CCE2691BE65D00008E5782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14CCE2681BE65D00008E5782 /* AppDelegate.swift */; };
+		14CCE26B1BE65D00008E5782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14CCE26A1BE65D00008E5782 /* ViewController.swift */; };
+		14CCE26E1BE65D00008E5782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14CCE26C1BE65D00008E5782 /* Main.storyboard */; };
+		14CCE2701BE65D00008E5782 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 14CCE26F1BE65D00008E5782 /* Assets.xcassets */; };
+		14CCE2731BE65D00008E5782 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14CCE2711BE65D00008E5782 /* LaunchScreen.storyboard */; };
+		379700E81BED572C00347C4C /* AGOmailboxVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379700E71BED572C00347C4C /* AGOmailboxVC.swift */; };
+		379700EA1BED5DE400347C4C /* AGOworkOrdersVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379700E91BED5DE400347C4C /* AGOworkOrdersVC.swift */; };
+		379700EC1BED5FBD00347C4C /* AGOaccountBalanceVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379700EB1BED5FBD00347C4C /* AGOaccountBalanceVC.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0556D0CD1BE6A26500899315 /* AGOloginVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AGOloginVC.swift; sourceTree = "<group>"; };
+		0556D0CF1BE6A28800899315 /* AGOmainVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AGOmainVC.swift; sourceTree = "<group>"; };
+		14CCE2651BE65D00008E5782 /* BC-Agora.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BC-Agora.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		14CCE2681BE65D00008E5782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		14CCE26A1BE65D00008E5782 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		14CCE26D1BE65D00008E5782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		14CCE26F1BE65D00008E5782 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		14CCE2721BE65D00008E5782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		14CCE2741BE65D00008E5782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		379700E71BED572C00347C4C /* AGOmailboxVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AGOmailboxVC.swift; path = ../AGOmailboxVC.swift; sourceTree = "<group>"; };
+		379700E91BED5DE400347C4C /* AGOworkOrdersVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AGOworkOrdersVC.swift; sourceTree = "<group>"; };
+		379700EB1BED5FBD00347C4C /* AGOaccountBalanceVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AGOaccountBalanceVC.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		14CCE2621BE65D00008E5782 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		14CCE25C1BE65D00008E5782 = {
+			isa = PBXGroup;
+			children = (
+				14CCE2671BE65D00008E5782 /* BC-Agora */,
+				14CCE2661BE65D00008E5782 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		14CCE2661BE65D00008E5782 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				14CCE2651BE65D00008E5782 /* BC-Agora.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		14CCE2671BE65D00008E5782 /* BC-Agora */ = {
+			isa = PBXGroup;
+			children = (
+				379700E71BED572C00347C4C /* AGOmailboxVC.swift */,
+				14CCE2681BE65D00008E5782 /* AppDelegate.swift */,
+				14CCE26A1BE65D00008E5782 /* ViewController.swift */,
+				14CCE26C1BE65D00008E5782 /* Main.storyboard */,
+				379700EB1BED5FBD00347C4C /* AGOaccountBalanceVC.swift */,
+				379700E91BED5DE400347C4C /* AGOworkOrdersVC.swift */,
+				0556D0CF1BE6A28800899315 /* AGOmainVC.swift */,
+				0556D0CD1BE6A26500899315 /* AGOloginVC.swift */,
+				14CCE26F1BE65D00008E5782 /* Assets.xcassets */,
+				14CCE2711BE65D00008E5782 /* LaunchScreen.storyboard */,
+				14CCE2741BE65D00008E5782 /* Info.plist */,
+			);
+			path = "BC-Agora";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		14CCE2641BE65D00008E5782 /* BC-Agora */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 14CCE2771BE65D00008E5782 /* Build configuration list for PBXNativeTarget "BC-Agora" */;
+			buildPhases = (
+				14CCE2611BE65D00008E5782 /* Sources */,
+				14CCE2621BE65D00008E5782 /* Frameworks */,
+				14CCE2631BE65D00008E5782 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "BC-Agora";
+			productName = "BC-Agora";
+			productReference = 14CCE2651BE65D00008E5782 /* BC-Agora.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		14CCE25D1BE65D00008E5782 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = Deverse;
+				TargetAttributes = {
+					14CCE2641BE65D00008E5782 = {
+						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = ARW9T264RL;
+					};
+				};
+			};
+			buildConfigurationList = 14CCE2601BE65D00008E5782 /* Build configuration list for PBXProject "BC-Agora" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 14CCE25C1BE65D00008E5782;
+			productRefGroup = 14CCE2661BE65D00008E5782 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				14CCE2641BE65D00008E5782 /* BC-Agora */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		14CCE2631BE65D00008E5782 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14CCE2731BE65D00008E5782 /* LaunchScreen.storyboard in Resources */,
+				14CCE2701BE65D00008E5782 /* Assets.xcassets in Resources */,
+				14CCE26E1BE65D00008E5782 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		14CCE2611BE65D00008E5782 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14CCE26B1BE65D00008E5782 /* ViewController.swift in Sources */,
+				14CCE2691BE65D00008E5782 /* AppDelegate.swift in Sources */,
+				379700EA1BED5DE400347C4C /* AGOworkOrdersVC.swift in Sources */,
+				379700EC1BED5FBD00347C4C /* AGOaccountBalanceVC.swift in Sources */,
+				0556D0CE1BE6A26500899315 /* AGOloginVC.swift in Sources */,
+				0556D0D01BE6A28800899315 /* AGOmainVC.swift in Sources */,
+				379700E81BED572C00347C4C /* AGOmailboxVC.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		14CCE26C1BE65D00008E5782 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				14CCE26D1BE65D00008E5782 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		14CCE2711BE65D00008E5782 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				14CCE2721BE65D00008E5782 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		14CCE2751BE65D00008E5782 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		14CCE2761BE65D00008E5782 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		14CCE2781BE65D00008E5782 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "BC-Agora/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Deverse.BC-Agora";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		14CCE2791BE65D00008E5782 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "BC-Agora/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Deverse.BC-Agora";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		14CCE2601BE65D00008E5782 /* Build configuration list for PBXProject "BC-Agora" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14CCE2751BE65D00008E5782 /* Debug */,
+				14CCE2761BE65D00008E5782 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		14CCE2771BE65D00008E5782 /* Build configuration list for PBXNativeTarget "BC-Agora" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14CCE2781BE65D00008E5782 /* Debug */,
+				14CCE2791BE65D00008E5782 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 14CCE25D1BE65D00008E5782 /* Project object */;
+}
