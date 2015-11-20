@@ -23,7 +23,20 @@ class BAPStudentInformation: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        tableView.backgroundColor = UIColor.clearColor()
         // Do any additional setup after loading the view, typically from a nib.
+        
+        UIGraphicsBeginImageContext(self.view.frame.size)
+        UIImage(named: "snow")?.drawInRect(self.view.bounds)
+        
+        let image: UIImage = UIGraphicsGetImageFromCurrentImageContext()
+        let imageView = UIImageView(image: image)
+        imageView.alpha = 0.5
+        
+        UIGraphicsEndImageContext()
+        
+        self.view.insertSubview(imageView, atIndex: 0)
+        
         
         arrayForBool = ["0","0","0","0","0"] //added
         let json_data = getJSON("https://raw.githubusercontent.com/TeamDeverse/BC-Agora/master/user_example.json")
@@ -66,9 +79,12 @@ class BAPStudentInformation: UIViewController {
         [sectionContentDict .setValue(tmp5, forKey:string1! )]
         
         
+        
         print(tmp1)
         
         self.tableView.registerClass(UITableViewCell.self, forCellReuseIdentifier: "Cell")
+        
+        tableView.backgroundColor = UIColor.clearColor()
         
     }
     
@@ -181,7 +197,7 @@ class BAPStudentInformation: UIViewController {
         else{
             let content = sectionContentDict .valueForKey(sectionTitleArray.objectAtIndex(indexPath.section) as! String) as! NSArray
             cell.textLabel?.text = content .objectAtIndex(indexPath.row) as? String
-            //cell.backgroundColor = UIColor.
+            cell.backgroundColor = UIColor.clearColor()
         }
         
         return cell

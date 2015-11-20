@@ -12,6 +12,8 @@ class BAPDining: UIViewController, UITableViewDataSource, UITableViewDelegate {
     
     
     
+    @IBOutlet var eagleButton: UIButton!
+    
     @IBOutlet var tableView: UITableView!
     
     let dining_labels = ["Dining Dollars: $", "Flex Plan: $", "Eagle Bucks: $"]
@@ -33,6 +35,28 @@ class BAPDining: UIViewController, UITableViewDataSource, UITableViewDelegate {
         
         tableView.delegate = self
         tableView.dataSource = self
+        
+        UIGraphicsBeginImageContext(self.view.frame.size)
+        UIImage(named: "alumni_stadium")?.drawInRect(self.view.bounds)
+        
+        let image: UIImage = UIGraphicsGetImageFromCurrentImageContext()
+        let imageView = UIImageView(image: image)
+        imageView.alpha = 0.5
+        
+        UIGraphicsEndImageContext()
+        
+        self.view.insertSubview(imageView, atIndex: 0)
+        
+        let cornerRadius : CGFloat = 5.0
+        let borderAlpha : CGFloat = 0.7
+        eagleButton.frame = CGRectMake(100, 100, 200, 40)
+        //laundry.setTitle("Login", forState: UIControlState.Normal)
+        eagleButton.setTitleColor(UIColor.blackColor(), forState: UIControlState.Normal)
+        eagleButton.backgroundColor = UIColor.clearColor()
+        eagleButton.layer.borderWidth = 1.0
+        eagleButton.layer.borderColor = UIColor(white: 0.0, alpha: borderAlpha).CGColor
+        eagleButton.layer.cornerRadius = cornerRadius
+        
         
         
         
@@ -156,6 +180,12 @@ class BAPDining: UIViewController, UITableViewDataSource, UITableViewDelegate {
         //print(swiftBlogs[row])
     }
     
+    @IBAction func pushBucks(sender: AnyObject) {
+        if let url = NSURL(string: "https://portal.bc.edu/portal/page/portal/MyServices/OneCardFundsWPS?_piref1188_33766710_1188_33766709_33766709.__ora_navig=eagleID%3DzlG6zWGlGlpnulGn%26proxied%3Dfalse%26displayName%3DWilliam%252BBowditch%26checkNoGood%3Dfalse%26statusFlag%3DSD%26studentEagleBucks%3D17.81%26employeeEagleBucks%3D0.00%26saBal%3D%25252B2429000%26saMaxBal%3D10000%26struts.portlet.action%3D%252Feagleonecard%252Fview%252Fmain%252FpurchaseList!displayInput%26struts.portlet.mode%3Dview%26struts.portlet.eventAction%3Dtrue") {
+            UIApplication.sharedApplication().openURL(url)
+        }
+        
+    }
     
     
     /*

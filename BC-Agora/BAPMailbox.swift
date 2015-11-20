@@ -34,6 +34,18 @@ class BAPMailbox: UIViewController, UITableViewDataSource, UITableViewDelegate {
         //let jsonDict = NSJSONSerialization.JSONObjectWithData(json, options: nil, error: &error) as NSDictionary
         //print(jsonDict)
         
+        UIGraphicsBeginImageContext(self.view.frame.size)
+        UIImage(named: "fulton")?.drawInRect(self.view.bounds)
+        
+        let image: UIImage = UIGraphicsGetImageFromCurrentImageContext()
+        let imageView = UIImageView(image: image)
+        imageView.alpha = 0.5
+        
+        UIGraphicsEndImageContext()
+        
+        self.view.insertSubview(imageView, atIndex: 0)
+        
+        
         tableView.delegate = self
         tableView.dataSource = self
 

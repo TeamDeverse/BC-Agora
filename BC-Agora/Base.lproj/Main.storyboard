@@ -149,7 +149,7 @@
                             </label>
                         </subviews>
                         <animations/>
-                        <color key="backgroundColor" red="0.99607843139999996" green="0.96862745100000003" blue="0.80000000000000004" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="V8L-gz-pcs" firstAttribute="bottom" secondItem="Akd-p3-5eG" secondAttribute="top" id="0EI-Cc-Re3"/>
                             <constraint firstItem="KGf-U7-YGn" firstAttribute="leading" secondItem="xga-o4-LZW" secondAttribute="leadingMargin" constant="54" id="1gf-qj-wR4"/>
@@ -192,7 +192,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="42" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="ThT-FS-4rC">
-                                <rect key="frame" x="0.0" y="64" width="320" height="337"/>
+                                <rect key="frame" x="0.0" y="64" width="320" height="259"/>
                                 <animations/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <prototypes>
@@ -222,9 +222,9 @@
                             </tableView>
                         </subviews>
                         <animations/>
-                        <color key="backgroundColor" red="0.99607843139999996" green="0.96862745100000003" blue="0.80000000000000004" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="ThT-FS-4rC" firstAttribute="centerY" secondItem="06n-eG-gSJ" secondAttribute="centerY" constant="-51.5" id="MQz-nn-d1x"/>
+                            <constraint firstItem="ThT-FS-4rC" firstAttribute="centerY" secondItem="06n-eG-gSJ" secondAttribute="centerY" constant="-90.5" id="MQz-nn-d1x"/>
                             <constraint firstItem="ThT-FS-4rC" firstAttribute="leading" secondItem="06n-eG-gSJ" secondAttribute="leadingMargin" constant="-20" id="e5Y-ut-uGW"/>
                             <constraint firstItem="ThT-FS-4rC" firstAttribute="top" secondItem="YXB-Hz-PRA" secondAttribute="bottom" id="gnI-wC-CTl"/>
                             <constraint firstItem="ThT-FS-4rC" firstAttribute="centerX" secondItem="06n-eG-gSJ" secondAttribute="centerX" id="pdz-05-wey"/>
@@ -456,7 +456,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="ep6-IB-9QI">
-                                <rect key="frame" x="0.0" y="64" width="320" height="504"/>
+                                <rect key="frame" x="0.0" y="64" width="320" height="247"/>
                                 <animations/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <prototypes>
@@ -483,15 +483,30 @@
                                     </tableViewCell>
                                 </prototypes>
                             </tableView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Gj8-kD-Qzd">
+                                <rect key="frame" x="78" y="319" width="164" height="30"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="Add Funds">
+                                    <color key="titleColor" red="0.50196081400000003" green="0.0" blue="0.0" alpha="0.64496228450000004" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="pushBucks:" destination="ioN-Xu-5Tz" eventType="touchUpInside" id="yW1-q3-fys"/>
+                                    <action selector="workLink:" destination="eSX-Rh-fjW" eventType="touchUpInside" id="WQr-oE-etL"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <animations/>
-                        <color key="backgroundColor" red="0.99607843139999996" green="0.96862745100000003" blue="0.80000000000000004" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="ep6-IB-9QI" firstAttribute="centerX" secondItem="xRO-gn-zVS" secondAttribute="centerX" id="DnE-Yl-AyA"/>
                             <constraint firstItem="ep6-IB-9QI" firstAttribute="top" secondItem="rd0-3g-av3" secondAttribute="bottom" id="Qb7-r0-O5V"/>
-                            <constraint firstItem="ep6-IB-9QI" firstAttribute="centerY" secondItem="xRO-gn-zVS" secondAttribute="centerY" constant="32" id="WXh-m7-eWB"/>
+                            <constraint firstItem="ep6-IB-9QI" firstAttribute="centerY" secondItem="xRO-gn-zVS" secondAttribute="centerY" constant="-96.5" id="WXh-m7-eWB"/>
                             <constraint firstItem="ep6-IB-9QI" firstAttribute="leading" secondItem="xRO-gn-zVS" secondAttribute="leadingMargin" constant="-20" id="dZ3-jP-RE9"/>
-                            <constraint firstItem="ep6-IB-9QI" firstAttribute="centerY" secondItem="xRO-gn-zVS" secondAttribute="centerY" constant="32" id="gci-gO-snK"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Gj8-kD-Qzd" secondAttribute="trailing" constant="62" id="gEf-2i-fbv"/>
+                            <constraint firstItem="ep6-IB-9QI" firstAttribute="centerY" secondItem="xRO-gn-zVS" secondAttribute="centerY" constant="-96.5" id="gci-gO-snK"/>
+                            <constraint firstItem="Gj8-kD-Qzd" firstAttribute="top" secondItem="ep6-IB-9QI" secondAttribute="bottom" constant="8" id="jby-LC-9qT"/>
+                            <constraint firstItem="Gj8-kD-Qzd" firstAttribute="leading" secondItem="xRO-gn-zVS" secondAttribute="leadingMargin" constant="62" id="oSM-7H-Yfn"/>
                             <constraint firstItem="ep6-IB-9QI" firstAttribute="centerX" secondItem="xRO-gn-zVS" secondAttribute="centerX" id="ruu-Gk-71D"/>
                         </constraints>
                     </view>
@@ -500,6 +515,7 @@
                     </navigationItem>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
                     <connections>
+                        <outlet property="eagleButton" destination="Gj8-kD-Qzd" id="RiP-du-rhS"/>
                         <outlet property="tableView" destination="ep6-IB-9QI" id="gtG-fr-Ft3"/>
                     </connections>
                 </viewController>

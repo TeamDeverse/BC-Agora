@@ -52,6 +52,7 @@ class BAPWorkOrders: UIViewController {
         UIGraphicsEndImageContext()
         
         self.view.addSubview(imageView)
+        self.view.insertSubview(imageView, atIndex: 0)
 
         // Do any additional setup after loading the view.
     }
